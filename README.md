@@ -73,15 +73,19 @@ pyinstaller --onefile --windowed --add-data "hasla.txt;." main.py
 ---
 ## Jak aplikacja wygląda?
 1. **Pierwsze uruchomienie**
+
 ![image](https://github.com/user-attachments/assets/683e4b22-3f3a-4a0d-bfb9-fba0cce88fbb)
 
 2. **Sprawdzenie hasła które nie spełnia wymogów**
+
 ![image](https://github.com/user-attachments/assets/0dbd2d7a-d6cd-4b06-b3c2-1a07a166f721)
 
 3. **Generowanie silnego hasła z możliwością skopiowania**
+
 ![image](https://github.com/user-attachments/assets/b5ac42ec-01c5-4d8b-99bf-fc8f7ae9d587)
 
 4. **Sprawdzenie hasła które jest klasyfikowane jako silne**
+
 ![image](https://github.com/user-attachments/assets/c5bc6873-8dc1-4d6a-845c-11734b86f9c7)
 
 ## Licencja
