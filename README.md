@@ -26,6 +26,19 @@ Aby uruchomić aplikację, wymagane jest środowisko Python 3.11 lub nowsze oraz
 - `PySide6`
 
 ---
+## Konwersacja do pliku exe
+Aby skonwertować aplikację do pliku exe (github nie pozwala na dodanie zbyt dużego pliku) należy:
+
+1. **Uruchomić CMD w folderze w którym jest aplikacja**
+2. **Instalujemy pyinstallera**:
+```bash
+pip install pyinstaller
+```
+4. **Zastosować następującą komendę:**
+```bash
+pyinstaller --onefile --windowed --add-data "hasla.txt;." main.py
+```
+3. **Plik exe znajdować się będzie w nowym folderze **dist** i można go uruchomić (trzeba zezwolić na uruchomienie jeśli antywirus nie pozwala)**
 
 ## Instrukcja uruchomienia
 
@@ -58,6 +71,18 @@ Aby uruchomić aplikację, wymagane jest środowisko Python 3.11 lub nowsze oraz
 3. Aby wygenerować nowe hasło, kliknij "Wygeneruj silne hasło" i skopiuj je, korzystając z przycisku w nowo otwartym oknie.
 
 ---
+## Jak aplikacja wygląda?
+1. **Pierwsze uruchomienie**
+![image](https://github.com/user-attachments/assets/683e4b22-3f3a-4a0d-bfb9-fba0cce88fbb)
+
+2. **Sprawdzenie hasła które nie spełnia wymogów**
+![image](https://github.com/user-attachments/assets/0dbd2d7a-d6cd-4b06-b3c2-1a07a166f721)
+
+3. **Generowanie silnego hasła z możliwością skopiowania**
+![image](https://github.com/user-attachments/assets/b5ac42ec-01c5-4d8b-99bf-fc8f7ae9d587)
+
+4. **Sprawdzenie hasła które jest klasyfikowane jako silne**
+![image](https://github.com/user-attachments/assets/c5bc6873-8dc1-4d6a-845c-11734b86f9c7)
 
 ## Licencja
 Projekt dostępny na licencji MIT.
