@@ -62,6 +62,4 @@ Aby uruchomić aplikację, wymagane jest środowisko Python 3.11 lub nowsze oraz
 ## Licencja
 Projekt dostępny na licencji MIT.
 
-## Autor
-Mateusz-PC
 
