@@ -34,11 +34,11 @@ Aby skonwertować aplikację do pliku exe (github nie pozwala na dodanie zbyt du
 ```bash
 pip install pyinstaller
 ```
-4. **Zastosować następującą komendę:**
+3. **Zastosować następującą komendę:**
 ```bash
 pyinstaller --onefile --windowed --add-data "hasla.txt;." main.py
 ```
-3. **Plik exe znajdować się będzie w nowym folderze **dist** i można go uruchomić (trzeba zezwolić na uruchomienie jeśli antywirus nie pozwala)**
+4. **Plik exe znajdować się będzie w nowym folderze **dist** i można go uruchomić (trzeba zezwolić na uruchomienie jeśli antywirus nie pozwala)**
 
 ## Instrukcja uruchomienia
 
