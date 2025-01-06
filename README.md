@@ -78,7 +78,7 @@ pyinstaller --onefile --windowed --add-data "hasla.txt;." main.py
 
 2. **Sprawdzenie hasła które nie spełnia wymogów**
 
-![image](https://github.com/user-attachments/assets/0dbd2d7a-d6cd-4b06-b3c2-1a07a166f721)
+![image](https://github.com/user-attachments/assets/058d3dfc-1831-49b0-b1ed-0a4196848bb6)
 
 3. **Generowanie silnego hasła z możliwością skopiowania**
 
