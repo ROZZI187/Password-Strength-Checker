@@ -48,7 +48,7 @@ Aby uruchomić aplikację, wymagane jest środowisko Python 3.11 lub nowsze oraz
 
 ## Struktura projektu
 - `main.py`: Główny plik aplikacji zawierający kod źródłowy.
-- `hasla.txt`: Plik zawierający bazę **10 000 najczęściej używanych haseł**, które są używane do weryfikacji siły hasła.
+- `hasla.txt`: Plik zawierający ogromną bazę ** najczęściej używanych haseł**, które są używane do weryfikacji siły hasła.
 
 ---
 
